@@ -14,6 +14,10 @@ public class Operacao {
 		this.resultado = 0;
 	}
 	
+	void subtrair() {
+	    this.resultado = this.num1 - this.num2;
+	}
+	
 	void soma() {
 		this.resultado = this.num1 + this.num2;	
 	}
